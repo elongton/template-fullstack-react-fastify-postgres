@@ -1,0 +1,28 @@
+.
+├─ web/
+│  ├─ Dockerfile
+│  ├─ nginx.conf
+│  ├─ package.json
+│  ├─ tsconfig.json
+│  ├─ vite.config.ts
+│  └─ src/
+│     ├─ main.tsx
+│     └─ App.tsx
+├─ api/
+│  ├─ Dockerfile
+│  ├─ package.json
+│  ├─ tsconfig.json
+│  ├─ prisma/
+│  │  └─ schema.prisma
+│  └─ src/
+│     ├─ server.ts
+│     ├─ routes/
+│     │  ├─ health.ts
+│     │  └─ dbHealth.ts
+│     └─ lib/
+│        └─ prisma.ts
+├─ .github/
+│  └─ workflows/
+│     └─ deploy.yml
+├─ deploy.config.example.yml
+└─ README.md
